@@ -5,6 +5,11 @@
   display: flex;
   justify-content: space-between;
   padding: 5px 3px;
+  background-color: white;
+}
+
+.status-bar-color-chat {
+  background-color: var(--chat-color);
 }
 
 .status-bar__column:first-child span {

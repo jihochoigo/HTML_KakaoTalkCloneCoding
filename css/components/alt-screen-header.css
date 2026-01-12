@@ -1,0 +1,40 @@
+.alt-header {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  align-content: space-between;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px var(--horizontal-space);
+  margin: 20px 0px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.alt-header__column {
+  width: 33%;
+}
+
+.alt-header__column:first-child {
+  margin-right: auto;
+  display: flex;
+  justify-content: start;
+}
+
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.alt-header__column:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.alt-header-color-chat {
+  background-color: var(--chat-color);
+}

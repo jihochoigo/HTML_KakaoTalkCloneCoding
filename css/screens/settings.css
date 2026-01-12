@@ -1,0 +1,30 @@
+.settings-screen .divider {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 20px 0px;
+}
+
+.settings__setting {
+  padding: 20px 0px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+.settings__setting:last-child {
+  border-bottom: none;
+}
+
+.settings__setting i {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+
+.settings__setting-column {
+  display: flex;
+  gap: 5px;
+}
